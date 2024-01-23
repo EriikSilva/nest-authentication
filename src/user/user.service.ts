@@ -5,8 +5,13 @@ import { PrismaService } from 'src/prisma/prisma.service';
 import * as bcrypt from 'bcrypt'
 @Injectable()
 export class UserService {
+ 
 
   constructor(private readonly prisma:PrismaService){}
+
+  async getAll() {
+    return this.prisma.usuario.findMany();
+  }
 
   async create(createUserDto: CreateUserDto) {
     const saltRounds = 10
