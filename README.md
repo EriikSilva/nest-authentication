@@ -2,7 +2,7 @@
 
 
 ## 📰 Sobre
-Fiz este projeto para me tomar de base para uma rota de login com objetivo de ficar padronizado, fiz com postgres e prisma
+Fiz este projeto para me tomar de base para uma rota de login com objetivo de ficar padronizadio. Caso crie uma rota nova será necessario logar pegar o token e incluir na authorization para acessa-la, caso contrario utilize o Pipe @IsPublic() para deixar o acesso liberado a rota
 
 
 # 💾 Instalação
