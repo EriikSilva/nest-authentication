@@ -30,7 +30,7 @@ Fiz este projeto para me tomar de base para uma rota de login com objetivo de fi
     </table>
 
 ## 🐱‍👤 ROTAS
-- Cadastro de Usuário
+# Cadastro de Usuário
 - POST => /user
 `
 {
@@ -39,7 +39,7 @@ Fiz este projeto para me tomar de base para uma rota de login com objetivo de fi
 }
 `
 
-- Login
+# Login
 - POST => /login
 `
 {
