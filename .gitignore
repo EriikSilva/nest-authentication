@@ -1,6 +1,6 @@
 # compiled output
-docker-compose.yml
 /dist
+/data
 /node_modules
 .env
 # Logs
