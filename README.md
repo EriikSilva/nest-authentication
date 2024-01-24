@@ -12,7 +12,7 @@ Fiz este projeto para me tomar de base para uma rota de login com objetivo de fi
 - Criar arquivo no raiz do projeto ```.env``` e configurar banco de dados de acordo como esta em ```.env.example``` (Docker é opcional) 
 - Rodar o Schema do banco ```npx prisma db push``` e logo após ```npm run migrate-and-seed``` para rodar a seed com os usuários abaixo
 - Rodar o projeto com o comando no terminal ```npm run start:dev``` e acessar ```http://localhost:3000```
-
+- Após isso abra o postman e importe a collection que esta em postman-collection para fazer as requisições
 
 <table>
         <tr>
