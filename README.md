@@ -6,7 +6,7 @@ Fiz este projeto para me tomar de base para uma rota de login com objetivo de fi
 
 
 # 💾 Instalação
-- Necessario Node e Angular
+- Necessario Node e NestJS
 - Clonar o projeto ```git clone https://github.com/EriikSilva/nest-authentication.git```
 - Rodar o comando pelo cmd na pasta do projeto ```npm install```
 - Criar arquivo no raiz do projeto ```.env``` e configurar banco de dados de acordo como esta em ```.env.example``` (Docker é opcional) 
